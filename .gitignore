@@ -1,0 +1,31 @@
+# Gizli değerler
+.env
+.env.*
+!.env.example
+seeds.json
+explanations.json
+.claude/settings.local.json
+
+# Foundry
+contracts/out/
+contracts/cache/
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+web/dist/
+
+# Sistem
+.DS_Store
+
+# Claude Code (local only)
+CLAUDE.md
+.claude/
+scripts/session-start.sh
+scripts/cloud-setup.sh
+docs/calisma-duzeni.md
